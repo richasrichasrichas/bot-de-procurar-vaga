@@ -2,7 +2,7 @@
 import time
 from telegram import Bot, Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
-from .job_checker import is_job_up  # Assuming the function is_job_up is in src/services/job_checker.py
+from .oob_checker_checkerer_checkerunction is_job_up is in src/services/job_checker.py
 
 # Telegram Bot Token
 TELEGRAM_BOT_TOKEN = 'YOUR_BOT_TOKEN'
@@ -25,9 +25,9 @@ Main tech stack(Up to 4 technologies)
 Secondary tech stack(Unlimited)
 Glassdoor salary estimative
 Job link
-"""
+""" + time() + " - New job application found!"
         send_notification(Bot(TELEGRAM_BOT_TOKEN), CHAT_ID, message)
-
+  
 # Telegram Bot setup
 def start(update: Update, context: CallbackContext):
     update.message.reply_text('Hello! I will notify you about new job applications')
